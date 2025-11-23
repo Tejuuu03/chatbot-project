@@ -4,10 +4,8 @@ function sendMessage() {
 
     if (message === "") return;
 
-    // Show user message
     addMessage(message, "user");
 
-    // Bot reply
     botReply(message);
 
     input.value = "";
@@ -54,3 +52,4 @@ function botReply(userText) {
 
     addMessage(reply, "bot");
 }
+
