@@ -43,7 +43,7 @@ function botReply(userText) {
         reply = "harshal,vinit,mayur.";
     }
      else if (userText.includes("best friend")) {
-        reply = "radha is your best friend.";
+        reply = "no one is your best friend.";
     }
 
     else {
